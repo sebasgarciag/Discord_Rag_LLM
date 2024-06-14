@@ -5,7 +5,7 @@
 __pycache__/
 
 # Ignore data and storage directories if they are not needed in the cloud
-data/
+
 storage/
 
 # Ignore virtual environment directory
