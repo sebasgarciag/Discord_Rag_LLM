@@ -1,4 +1,26 @@
+# Ignore environment variable files
 .env
-__pycache__/*
-data/*
-storage/*
+
+# Ignore Python cache directories
+__pycache__/
+
+# Ignore data and storage directories if they are not needed in the cloud
+data/
+storage/
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore log files
+*.log
+
+# Ignore IDE specific files (optional)
+.vscode/
+.idea/
